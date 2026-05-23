@@ -1,0 +1,46 @@
+username: emp_user
+database pass:Emp@1234
+
+employee-system/
+│
+├── app/
+│   ├── models/
+│   │   ├── user_model.py
+│   │   └── employee_model.py
+│
+│   ├── schemas/
+│   │   ├── user_schema.py
+│   │   └── employee_schema.py
+│
+│   ├── controllers/
+│   │   ├── auth_controller.py
+│   │   └── employee_controller.py
+│
+│   ├── views/
+│   │   ├── auth_routes.py
+│   │   └── employee_routes.py
+│
+│   ├── services/
+│   │   └── erp_service.py
+│
+│   ├── core/
+│   │   ├── config.py
+│   │   └── security.py
+│
+│   ├── db/
+│   │   └── database.py
+│
+│   ├── utils/
+│   │   ├── hash.py
+│   │   └── token.py
+│
+├── main.py
+├── requirements.txt
+└── .env
+
+
+
+
+
+
+now the system should be as i explain also add your  thinkings in it wee want to implement only 1 function first  in this function  when employee dashboard   when employee is on a leave he need to apply it from an application then his team leader sees another dashboard will approve it then hr dashboard will approve and then the employee will see the leave approved and if available holidays are 12 1 will be minus from it also employee dashboard salary will be displayed by using the realtime data of esp next now employee can apply leave see his own leaves approvals and his salary and this data is taken from the erp next daily punch realtime data and now hr can create an login id password as per role also he has the option to give employee team leader or not team leader dashboard should be normal employee but has and attendance approval system also we will build admin dashboard in which only the managing director will monitor realtime updates  add your ideas also weshould make like this that we should be able to scale it in future
